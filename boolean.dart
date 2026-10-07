@@ -1,4 +1,4 @@
-void main() {
+int main() {
   bool isRaining = true;
   bool isSunny = false;
 
@@ -7,7 +7,7 @@ void main() {
 
   if (isRaining) {
     print('Don\'t forget to take an umbrella!');
-  } else {
-    print('Enjoy the sunshine!');
   }
+
+  return 0;
 }
